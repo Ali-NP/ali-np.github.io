@@ -23,7 +23,7 @@ site_description = "A new project generated from the default template project."
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "Salina Ali""
+site_author = "Salina Ali"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -76,7 +76,6 @@ Copyright &copy; 2026 The authors
 # ----------------------------------------------------------------------------
 [project.theme]
 
-features = [ "content.action.edit", "content.action.view" ]
 # change this to "classic" to use the traditional Material for MkDocs look.
 #variant = "classic"
 
@@ -118,6 +117,7 @@ language = "en"
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
 features = [
+ "content.action.edit", "content.action.view",
     # Zensical includes an announcement bar. This feature allows users to
     # dismiss it when they have read the announcement.
     # https://zensical.org/docs/setup/header/#announcement-bar
